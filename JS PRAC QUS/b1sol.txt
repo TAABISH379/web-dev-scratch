@@ -1,0 +1,64 @@
+Chapter 1: Variables & Declarations — Beginner Solutions
+
+B1 (Easy): Declare three variables using var, let, and const. Log their values.
+
+// Example:
+var a = 1;
+let b = 2;
+const c = 3;
+console.log(a, b, c); // 1 2 3
+
+Explanation: `var` is function/global-scoped; `let` and `const` are block-scoped. `const` cannot be reassigned.
+
+B2 (Easy): Try reassigning a const variable; observe and explain the error.
+
+const pi = 3.14;
+// pi = 3.1415; // Uncaught TypeError: Assignment to constant variable.
+
+Explanation: `const` creates a read-only binding; attempting to reassign throws a TypeError at runtime.
+
+B3 (Easy): Create variables of types number, string, boolean, null, undefined; log typeof for each.
+
+let n = 42;
+let s = "hello";
+let t = true;
+let nothing = null;
+let notDefined;
+console.log(typeof n); // "number"
+console.log(typeof s); // "string"
+console.log(typeof t); // "boolean"
+console.log(typeof nothing); // "object"  (historical JS quirk)
+console.log(typeof notDefined); // "undefined"
+
+B4 (Easy): Use template literals to build "Hello, <name> — you are <age> years old."
+
+const name = "Aisha";
+const age = 21;
+console.log(`Hello, ${name} — you are ${age} years old.`);
+
+B5 (Easy): Show valid and invalid variable names (examples) and explain rules.
+
+Valid examples:
+let firstName;
+let _count;
+let $price;
+let camelCaseVar;
+
+Invalid examples:
+// let 1st;      // can't start with a digit
+// let my-name;   // hyphen is not allowed
+// let class;     // reserved word (avoid using reserved keywords)
+
+Rules: Names must start with a letter, `_`, or `$`; may contain letters, digits, `_`, `$`; cannot be reserved keywords.
+
+B6 (Easy): Declare two variables with the same name using var in the same scope — what happens?
+
+var x = 1;
+var x = 2;
+console.log(x); // 2
+
+Explanation: `var` allows redeclaration in the same scope and the later declaration overwrites the earlier one. `let`/`const` throw a SyntaxError on redeclaration in the same scope.
+
+Usage notes:
+- Run these snippets in the browser Console or Node.js (save to a `.js` file and run `node file.js`).
+- Try changing `var` to `let`/`const` to observe scope and redeclaration differences.
