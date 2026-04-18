@@ -1,0 +1,17 @@
+Chapter 1: Variables & Declarations — Beginner Exercises
+
+B1 (Easy): Declare three variables using var, let, and const. Log their values.
+
+B2 (Easy): Try reassigning a const variable; observe and explain the error.
+
+B3 (Easy): Create variables of types number, string, boolean, null, undefined; log typeof for each.
+
+B4 (Easy): Use template literals to build "Hello, <name> — you are <age> years old.".
+
+B5 (Easy): Show valid and invalid variable names (examples) and explain rules.
+
+B6 (Easy): Declare two variables with the same name using var in the same scope — what happens?
+
+Notes:
+- Try each exercise in the browser console or Node.js REPL.
+- When ready, ask me to add intermediate exercises or include solutions/hints.
