@@ -1,0 +1,7 @@
+function greet(name) {
+ console.log("Hello " + name);
+}
+greet("CAT");
+
+// name is a parameter
+// "CAT" is the argument you pass
