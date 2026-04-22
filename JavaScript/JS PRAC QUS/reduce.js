@@ -1,0 +1,1 @@
+let total = nums.reduce((acc, val) => acc + val, 0);
