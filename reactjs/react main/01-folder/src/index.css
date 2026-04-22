@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'helvetica neue';
+    color: #fff;
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body{
+  background-color: #111;
+}
+body{
+    background-image: url(https://plus.unsplash.com/premium_photo-1776182468307-c6359ad794d9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwyMHx8fGVufDB8fHx8fA%3D%3D);
+}
+#parent{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 2rem;
+}
