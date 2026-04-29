@@ -1,0 +1,33 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar */
+.navbar {
+    height: 60px;
+    background-color: black;
+}
+
+/* Container */
+.container {
+    display: flex;
+    height: 300px;
+    gap: 50%;
+    padding: 50px;
+    flex-wrap: nowrap;
+}
+
+/* Left Div (Red) */
+.left {
+    flex: 1;
+    background-color: red;
+}
+
+/* Right Div (Green) */
+.right {
+    flex: 1;
+    background-color: green;
+}
