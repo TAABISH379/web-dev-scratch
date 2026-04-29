@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  font-family: 'Poppins', sans-serif;
+  background-image: url(https://images.unsplash.com/photo-1454117096348-e4abbeba002c?w=500);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* 🔥 Glass Effect Heading */
+.upper {
+    margin-top: 50px;
+    padding: 20px 30px;
+    font-size: 28px;
+    font-weight: 600;
+    color: white;
+
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    border-radius: 40px;
+    border: 1px solid rgba(255,255,255,0.2);
+
+    text-align: center;
+    max-width: 500px;
+    width: 90%;
+
+    box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+}
+
+/* Container Card */
+.container {
+    margin-top: 40px;
+    padding: 30px;
+    border-radius: 20px;
+
+    background: rgba(0,0,0,0.5);
+    backdrop-filter: blur(8px);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+
+    box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+}
+
+/* Input Styling */
+.myinput {
+    width: 350px;
+    padding: 12px 15px;
+    font-size: 16px;
+
+    border: none;
+    border-radius: 30px;
+    outline: none;
+
+    transition: 0.3s ease;
+}
+
+/* Focus Glow */
+.myinput:focus {
+    transform: scale(1.03);
+    box-shadow: 0 0 15px #007BFF;
+}
+
+/* Button Styling */
+.button {
+    padding: 12px 30px;
+    font-size: 16px;
+    color: white;
+
+    background: linear-gradient(135deg, #007BFF, #00C6FF);
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+
+    transition: all 0.3s ease;
+}
+
+/* Hover Animation */
+.button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0,123,255,0.5);
+}
+
+/* Click Effect */
+.button:active {
+    transform: scale(0.95);
+}
