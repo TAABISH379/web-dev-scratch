@@ -1,9 +1,10 @@
 import React from 'react'
 
-const App = () => {
+function App() {
   return (
-    <div id="parent">HELLO</div>
-
+    <div id='parent'>
+      <h1>Hello, World!</h1>
+    </div>
   )
 }
 

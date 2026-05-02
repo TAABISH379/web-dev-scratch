@@ -25,20 +25,17 @@ body {
 
 .nav{
   background-color: rgb(230, 206, 174);
+  display: flex;
+  justify-content: center;
+  /* adding space between items to add space between them  we use */
+  gap: 20px;
+
   padding: 25px;
   margin: 50px;
-  align-content: center;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   border: 2px solid black;
   font-weight: 700;
-  font-family: 'Times New Roman', Times, serif;
-  font-size: larger;
   border-radius: 20px;
-  text-align: center;
-  text-decoration: underline;
-  text-decoration-color: black;
-  text-decoration-thickness: 2px;
-  text-underline-offset: 2px;
+
   
 
 }

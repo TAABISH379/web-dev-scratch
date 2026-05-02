@@ -2,11 +2,8 @@ import React from 'react'
 
 const Card = () => {
   return (
-    <div>
-        <div className='card'>
-        <h1>Hello</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, vitae!</p>
-      </div>
+    <div className='card'>
+      <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, accusamus explicabo nesciunt porro eaque, asperiores obcaecati officiis quibusdam dolor, aliquam nostrum perferendis? Nesciunt tenetur id veniam assumenda, sed dolores natus?</h1>
     </div>
   )
 }
