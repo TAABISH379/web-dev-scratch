@@ -1,5 +1,5 @@
 .header{
-    background-color: lightseagreen;
+    background-color: lightblue;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -7,10 +7,48 @@
     margin: 5px;
 }
 
+
 .btn{
-    background-color: yellow;
+    background-color: white;
+    border: 1px solid black;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 5px;
+
+
+}
+.btn:hover{
+    background-color: black;
+    color: white;
+
+    
+}
+.btn:active{
+    background-color: grey;
+    color: white;
+
+}
+.nav{
+    display: flex;
+    gap: 100px;
+
 }
 
-.logo{
-    text-decoration: underline;
+.nav a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+
 }
+.nav a:hover{
+    color: white;
+
+
+}
+.nav a:active{
+    color: grey;
+
+
+}
+
+

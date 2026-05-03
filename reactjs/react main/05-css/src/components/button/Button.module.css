@@ -1,7 +1,21 @@
 .btn{
-    background-color: red;
+    background-color: white;
     width: fit-content;
     padding: 10px 20px;
     border-radius: 5px;
     margin: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+
 }
+.btn:hover{
+    background-color: black;
+    color: white;
+
+}
+.btn:active{
+    background-color: grey;
+    color: white;
+
+}
+
