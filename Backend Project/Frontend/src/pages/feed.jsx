@@ -1,8 +1,10 @@
-import React, {useState} from 'react'
+import React, {useState, useEffect} from 'react'
+import axios from "axios"
 
-const feed = () => {
+const Feed = () => {
 
     const [posts, setPosts] = useState([
+
 
         {
             _id: 1,
@@ -11,9 +13,22 @@ const feed = () => {
             createdAt: '2024-06-01T12:00:00Z',
         }
     ])
+    
+
+    useEffect(() =>{
+        axios.get('http://localhost:3000/posts')
+        .then((response) => {
+            console.log(response.data);
+            setPosts(response.data.posts);
+        })
+
+
+    }
+    , [])
   return (
 
     <section className='feed-section'>
+        <h1>Feed</h1>
         {
             posts.length > 0 ? (
                 posts.map((post) => (
@@ -28,9 +43,8 @@ const feed = () => {
                 <p>No posts available.</p>
             )
         }
-        <h1>Feed</h1>
       </section>
   )
 } 
 
-export default feed
+export default Feed

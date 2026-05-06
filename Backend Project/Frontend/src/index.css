@@ -5,7 +5,7 @@
 }
 
 html,body{
-  #root{}
+  /* #root{} */
   height: 100%;
   width: 100%;
 
@@ -71,15 +71,30 @@ html{
 .post {
   display: flex;
   flex-direction: column;
-  justify-content: start;
-  align-items: left
-  ;
+  justify-content: flex-start;
+  align-items: flex-start;
   background-color: white;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   width: 400px;
   margin-bottom: 20px;
+}
+
+.post img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  object-fit: cover;
+  max-height: 300px;
+}
+
+.post p {
+  margin: 0;
+  font-size: 16px;
+  color: #333;
+  line-height: 1.5;
 }
 
 .post h3 {
