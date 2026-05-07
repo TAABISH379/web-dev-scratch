@@ -20,7 +20,7 @@ body{
 
 #card{
     border-radius: 10px;
-    height: 500px;
+    height: 520px;
     width: 300px;
     background-color: #f0f0f0;
 }
@@ -38,6 +38,7 @@ body{
 #card h5{
     font-size: 13px;
     color: red;
+    font-weight: 800;
 }
 #card button{
     background-color: cornflowerblue;
