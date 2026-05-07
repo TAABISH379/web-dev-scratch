@@ -4,4 +4,6 @@ var addFriend = document.querySelector("#add");
 
 addFriend.addEventListener("click", function(){
     istatus.innerHTML = "Friend Request Sent";
+    istatus.style.color = "green";
+    
 });
