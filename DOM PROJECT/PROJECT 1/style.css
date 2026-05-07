@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: cornflowerblue;
+    padding: 20px;
+    text-align: center;
+}
+
+#card{
+    border-radius: 10px;
+    height: 400px;
+    width: 300px;
+    background-color: #f0f0f0;
+}
+#card img{
+    height: 80%;
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    object-position: center;
+}
+#card h1{
+    padding: 10px;
+    font-size: 20px;
+}
