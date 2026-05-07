@@ -10,7 +10,11 @@ html, body{
     width: 100%;
 }
 body{
-    background-color: cornflowerblue;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     
 }
 #container{
